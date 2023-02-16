@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!--Start Icon-->
+    <link rel="apple-touch-icon" sizes="57x57" href="./assets/icon/">
+    <link rel="apple-touch-icon" sizes="60x60" href="./assets/icon//apple-icon-60x60.png">
+    <link rel="apple-touch-icon" sizes="72x72" href="./assets/icon//apple-icon-72x72.png">
+    <link rel="apple-touch-icon" sizes="76x76" href="./assets/icon//apple-icon-76x76.png">
+    <link rel="apple-touch-icon" sizes="114x114" href="./assets/icon//apple-icon-114x114.png">
+    <link rel="apple-touch-icon" sizes="120x120" href="./assets/icon//apple-icon-120x120.png">
+    <link rel="apple-touch-icon" sizes="144x144" href="./assets/icon//apple-icon-144x144.png">
+    <link rel="apple-touch-icon" sizes="152x152" href="./assets/icon//apple-icon-152x152.png">
+    <link rel="apple-touch-icon" sizes="180x180" href="./assets/icon//apple-icon-180x180.png">
+    <link rel="icon" type="image/png" sizes="192x192"  href="./assets/icon//android-icon-192x192.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="./assets/icon//favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="96x96" href="./assets/icon//favicon-96x96.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="./assets/icon//favicon-16x16.png">
+    <link rel="manifest" href="./assets/icon//manifest.json">
+    <meta name="msapplication-TileColor" content="#ffffff">
+    <meta name="msapplication-TileImage" content="./assets/icon//ms-icon-144x144.png">
+    <meta name="theme-color" content="#ffffff">
+    <!--End Icon-->
+    <title>.:Consulta Referencia | Bellavista Yarinacocha:.</title>
+    <!--CSS-->
+    <link rel="stylesheet" href="./main.css">
+    <!--Scrip-->
+    <script defer src="./app.js"></script>
+</head>
+<body>
+
+    <header class="header">
+        <div class="links">
+            <a href="http://app.sis.gob.pe/SisConsultaEnLinea/Consulta/frmConsultaEnLinea.aspx" target="_blank" rel="noopener noreferrer">Consulta SIS</a>
+            <a href="https://app1.susalud.gob.pe/registro/" target="_blank" rel="noopener noreferrer">Consulta EsSalud</a>
+        </div>
+    </header>
+    <main class="main">
+        <div class="main__top">
+            <img src="./assets/image/Forma_RT.svg" alt="">
+        </div>
+        <div class="main__left">
+            <img src="./assets/image/Forma_L.svg" alt="">
+        </div>
+
+        <div class="columns">
+            <div class="column1">
+                <div class="column1__header">
+                    <h1 class="column1__h1 align-center font-family">REFERENCIA</h1>
+                    <P class="column1__p align-center">
+                        Bienvenido al sistema de consulta de referencia.<br>
+                        Aquí podrás visualizar el estado de su referencia.
+                    </P>
+                </div>
+                <div class="form">
+                    <form class="align-center" method="POST">
+                        <div class="form-group">
+                            <input class="form__input form-input consult-p border-radius" type="number" name="documento" placeholder="Ingresa tu DNI" required autofocus>
+                        </div>
+                        <button class="form__btn form-input consult-p border-radius" type="submit">CONSULTAR</button>
+                    </form>
+                </div>
+                <div class="column1__footer">
+                    <p class="align-center">
+                        Si tiene alguna pregunta o inquietud antes o durante su visita, no dude en preguntar. Estamos aquí para ayudarle y asegurarnos de que reciba la mejor atención médica posible. ¡Gracias por confiar en nosotros con su salud!
+                    </p>
+                </div>
+            </div>
+            <div class="column2">
+                <div class="column2__content border-radius box-shadow">
+                    <div class="column2__header">
+                        <h2 class="column2__h2 font-family faqs-color-text">PREGUNTAS FRECUENTES</h2>
+                    </div>
+                    <div class="column2__faqs">
+                        <div class="faqs">
+                            <div class="faqs__title border-radius box-shadow">
+                                <h3 class="faqs__h3 faqs-color-text">Como sacar una referencia?</h3>
+                                <img src="./assets/image/flecha_down.svg" alt="">
+                            </div>
+                            <ul class="faqs__ul border-radius faqs-color-text">
+                                <li>Contar con historia clínica en el establecimiento.</li>
+                                <li>Sacar cita con el profesional a pasar consulta.</li>
+                            </ul>
+                        </div>
+                        <div class="faqs">
+                            <div class="faqs__title border-radius box-shadow">
+                                <h3 class="faqs__h3 faqs-color-text">Como aperturar una historia clínica?</h3>
+                                <img src="./assets/image/flecha_down.svg" alt="">
+                            </div>
+                            <ul class="faqs__ul border-radius faqs-color-text">
+                                <li>Llevar tu DNI.</li>
+                                <li>Acercarse al establecimiento al área de admisión.</li>
+                            </ul>
+                        </div>
+                        <div class="faqs">
+                            <div class="faqs__title border-radius box-shadow">
+                                <h3 class="faqs__h3 faqs-color-text">Por que demora mi referencia?</h3>
+                                <img src="./assets/image/flecha_down.svg" alt="">
+                            </div>
+                            <p class="faqs__ul border-radius faqs-color-text" style="text-align: justify; padding-right: 20px;">
+                                Si tu referencia no es aceptada es porque no cuentan con disponibilidad de citas o porque tu diagnóstico puede ser atendido por un centro de menor nivel al que señaló el médico.
+                            </p>
+                        </div>
+                        <div class="faqs">
+                            <div class="faqs__title border-radius box-shadow">
+                                <h3 class="faqs__h3 faqs-color-text">Documentos a presentar en el Hospital</h3>
+                                <img src="./assets/image/flecha_down.svg" alt="">
+                            </div>
+                            <ul class="faqs__ul border-radius faqs-color-text">
+                                <p class="border-radius faqs-color-text" style="position: relative; left: -20px; padding: 0 0 10px 0;">Llevar 3 copias de los siguientes documentos:</p>
+                                <li>Copia de SIS -> (Puedes consultar <a class="link__faqs" href="http://app.sis.gob.pe/SisConsultaEnLinea/Consulta/frmConsultaEnLinea.aspx" target="_blank" rel="noopener noreferrer">Aquí el estado de tu SIS</a>).</li>
+                                <li>Copia de DNI.</li>
+                                <li>Hoja de referencia -> (Firmado y sellado por el medico que pasaste consulta).</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
+        <div class="main__right">
+            <img src="./assets/image/Forma_R.svg" alt="">
+        </div>
+    </main>
+    
+</body>
+</html>
